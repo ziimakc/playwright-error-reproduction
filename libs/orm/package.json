@@ -1,0 +1,19 @@
+{
+  "name": "@libs/orm",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "./build/index.js",
+  "scripts": {
+    "generate": "prisma generate"
+  },
+  "dependencies": {
+    "prisma": "6.7.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "6.7.0",
+    "@types/node": "^22.15.3",
+    "typescript": "5.8.3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@apps/frontend",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "test:integration": "zx ./scripts/test-integration.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@libs/orm": "workspace:*",
+    "@playwright/test": "1.52.0"
+  }
+}

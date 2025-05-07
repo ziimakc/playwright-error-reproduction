@@ -1,0 +1,15 @@
+{
+  "extends": "../../other/tsconfig.base.json",
+  "include": ["**/*.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "jsx": "react-jsx",
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+    "baseUrl": ".",
+    "noEmit": true,
+    "rootDirs": ["."],
+    "allowImportingTsExtensions": true
+  }
+}
